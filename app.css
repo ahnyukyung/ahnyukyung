@@ -4,12 +4,10 @@
   font-family: "Montserrat";
   box-sizing: border-box;
 }
-
 ul {
   list-style-type: none;
 }
 #wrap {
-  /* background: url(images/bg_5.jpg); */
   width: 100vw;
   height: 100vh;
   background-position: center center;
@@ -24,7 +22,6 @@ ul {
   outline: none;
   color: #fff;
 }
-
 input::placeholder {
   color: #fff;
 }
@@ -43,6 +40,7 @@ button:hover {
 }
 .greeting {
   font-weight: 500;
+  font-size: 2em;
 }
 header {
   display: flex;
@@ -51,7 +49,7 @@ header {
   padding: 20px 3% 0;
 }
 .btn_random {
-  font-size: 12px;
+  font-size: 0.6em;
 }
 #clock {
   font-weight: 100;
@@ -63,7 +61,8 @@ header {
   transform: translate3d(-50%, -50%, 0);
 }
 .login_form input {
-  font-size: 18px;
+  font-size: 1em;
+  padding-left: 0.5em;
   margin-right: 10px;
   width: 175px;
 }
@@ -75,28 +74,27 @@ header {
 }
 .todo_wrap input {
   width: 250px;
-  padding-left: 2em;
+  padding-left: 0.5em;
+  font-size: 1em;
 }
 #todoList {
-  /* background-color: rgba(255, 255, 255, 0.4); */
   border-radius: 12px;
 }
 #todoList button {
   width: 10%;
-  font-size: 12px;
+  font-size: 0.4em;
 }
-
 #todoList li {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 0.8em;
 }
-
 #weather > span {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 0.7em;
 }
 #weather > span > span {
   margin-left: 5px;
@@ -113,13 +111,12 @@ header {
   /* height: 50px; */
   text-align: center;
 }
-
 #quote .text {
-  font-size: 15px;
+  font-size: 0.9em;
 }
 #quote .author {
   display: block;
-  font-size: 13px;
+  font-size: 0.7em;
   padding-top: 10px;
 }
 /* #quote .text {
