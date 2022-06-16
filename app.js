@@ -9,6 +9,15 @@ function changeBg() {
 changeBg();
 btnBg.addEventListener("click", changeBg);
 
+// lottie
+const lottieAnimation = bodymovin.loadAnimation({
+  container: $("#lottie")[0],
+  path: "https://assets7.lottiefiles.com/packages/lf20_9aq9An.json",
+  renderer: "svg",
+  loop: true,
+  autoplay: true,
+});
+
 // clock
 const clock = document.querySelector("#clock");
 
